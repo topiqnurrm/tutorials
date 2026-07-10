@@ -1,5 +1,5 @@
 {
-    'name': "estate",
+    'name': "estate module",
     'version': '0.1.0',
     'depends': ['base'],
     'author': "topiqnurrm",
@@ -9,7 +9,9 @@
     """,
     # data files always loaded at installation
     'data': [
-        # 'views/mymodule_view.xml',
+        "security/ir.model.access.csv",
+        'views/estate_property_action.xml',
+        'views/estate_property_menu.xml',
     ],
     # data files containing optionally loaded demonstration data
     'demo': [
