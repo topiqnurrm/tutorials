@@ -1,0 +1,7 @@
+<odoo>
+    <menuitem id="menu_interview_kandidat_root" name="Interview Kandidat">
+        <menuitem id="menu_interview_kandidat_first_level_menu" name="First Level">
+            <menuitem id="interview_kandidat_model_menu_action" action="action_interview_kandidat"/>
+        </menuitem>
+    </menuitem>
+</odoo>
